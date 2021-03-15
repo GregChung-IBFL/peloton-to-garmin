@@ -103,7 +103,7 @@ def getAverageSpeedMetersPerSecond(workoutSamples, distanceUnit):
 def getGarminActivityType(workout):
     # Valid Garmin TCX Sports: Running/Biking/Other
     # Valid Granular Garmin types: https://github.com/La0/garmin-uploader/blob/master/garmin_uploader/help.txt#L56
-    # Peloton Disciplines: cardio, circuit, running, cycling, walking, strength, stretching, meditation, yoga
+    # Peloton Disciplines: cardio, circuit, running, cycling, bike_bootcamp, walking, strength, stretching, meditation, yoga
     fitness_discipline = ""
     try:
         fitness_discipline = workout["fitness_discipline"]

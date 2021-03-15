@@ -125,7 +125,7 @@ Examples:
 ### Restricting Peloton workout types
 By default, all Peloton workouts are processed.  However, you can optionally filter for only specific types of workouts, such as only cycling and running; all other workouts will be skipped.
 
-Specify a comma-separated list of workout types you want to allow.  The values may be one or more of the following: cardio, circuit, cycling, meditation, running, strength, stretching, walking, yoga
+Specify a comma-separated list of workout types you want to allow.  The values may be one or more of the following: bike_bootcamp, cardio, circuit, cycling, meditation, running, strength, stretching, walking, yoga
 
 Example:
 `-workout_types cardio,cycling,running,strength`
